@@ -1,0 +1,36 @@
+body {
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: bisque;
+}
+
+main {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  box-shadow: 1px 12px 50px 8px rgba(0, 0, 0, 0.61);
+  align-items: center;
+  padding: 1em;
+}
+
+.person h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+}
+
+.person img {
+  border-radius: 50%;
+  max-height: 100px;
+}
